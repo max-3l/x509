@@ -23,7 +23,8 @@
     "pub:patch": "npm version patch && npm run git:push",
     "pub:minor": "npm version minor && npm run git:push",
     "pub:major": "npm version major && npm run git:push",
-    "git:push": "git push --follow-tags"
+    "git:push": "git push --follow-tags",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
